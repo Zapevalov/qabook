@@ -1,0 +1,105 @@
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  * {
+    //font-family: 'Vollkorn';
+    //font-family: 'IBM Plex Serif';
+    //font-family: 'Literata';
+    font-family: 'Alice';
+    font-size: 1.25rem;
+  }
+  a, p, pre {
+    font-family: 'Alice';
+    font-size: 1.5rem;
+  }
+
+  h1.book-title {
+    font-size: 4.8rem;
+    margin: 0px;
+    line-height: 4.0rem;
+  }
+  .book-version {
+    font-size: 1.5rem;
+    line-height: 10px;
+    font-style: italic;
+  }
+  .book-subtitle {
+    font-size: 2.7rem;
+    line-height: 2.6rem;
+    margin-top: 0.5rem;
+  }
+  .book-subtitle-continue {
+    font-size: 1.6rem;
+    margin: 0;
+  }
+  .book-author {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin: 0;
+  }
+  .divider {
+    margin: 3rem 0 3rem 0;
+  }
+  
+  h2 {
+    font-size: 2.2rem;
+  }
+  h2.toc {
+    margin: 0;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  h3.toc {
+    margin: 2rem 0 0 0;
+  }
+
+  ul.toc {
+    list-style-type: none;
+    font-size: 1rem;
+    padding-inline-start: 10px;
+    border-left: 1px solid black;
+  }
+  li.toc {
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+  li.toc a {
+    font-size: 1.2rem;
+  }
+
+  .toc.title {
+    border-top: 1px solid black;
+    margin-top: 4rem;
+    line-height: 4rem;
+  }
+
+  .main-container {
+    margin: 150px 50px 150px 33%;
+  }
+
+  @media only screen
+    and (min-device-width: 320px) 
+    /* and (max-device-width: 667px) */
+    and (max-device-width: 1024px) 
+    and (-webkit-min-device-pixel-ratio: 2) { 
+      h1 {
+        font-size: 5.6rem;
+        margin: 0px;
+      }
+      h2 {
+        font-size: 3.2rem;
+      }
+      h3 {
+        font-size: 1.5rem;
+      }
+      a, p, pre {
+        font-family: 'Alice';
+        font-size: 2.4rem;
+      }
+
+      .main-container {
+        margin: 50px 20px 150px 50px;
+      }
+  }
