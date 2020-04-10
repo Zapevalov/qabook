@@ -11,7 +11,7 @@
   }
   a, p, pre, b, li {
     font-family: 'Alice';
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 
   h1.book-title {
@@ -85,10 +85,13 @@
 
 
   h1.chapter {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .chapter-container {
-    margin: 100px 150px 150px 33%;
+    margin: 100px 180px 150px 33%;
+  }
+  h1 .chapter-subtitle {
+    font-size: 2.0rem;
   }
   h4.chapter {
     font-size: 1.6rem;
