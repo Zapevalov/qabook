@@ -1,0 +1,5 @@
+.intercom-chat-link {
+    color: rgb(0, 0, 238);
+    text-decoration: underline; 
+    cursor: pointer;
+}
