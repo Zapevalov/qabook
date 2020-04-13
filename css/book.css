@@ -9,7 +9,7 @@
     font-family: 'Alice';
     font-size: 1.25rem;
   }
-  a, p, pre, b, li {
+  a, p, pre, b, ul, ol, li {
     font-family: 'Alice';
     font-size: 1.3rem;
   }
@@ -141,16 +141,17 @@
         font-size: 1.6rem;
         font-weight: normal;
       }
-      a, p, pre, b {
+      a, p, pre, b, ul, ol, li {
         font-family: 'Alice';
         font-size: 1em;
+        line-height: 1.5;
       }
 
       .main-container {
-        margin: 50px 50px 250px 50px;
+        margin: 50px 50px 20% 50px;
       }
       .chapter-container {
-        margin: 50px 50px 250px 50px;
-        font-size: 42px;
+        margin: 50px 50px 10% 50px;
+        font-size: 52px;
       }
   }
