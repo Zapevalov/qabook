@@ -119,6 +119,9 @@
         font-size: 5.6rem;
         margin: 0px;
       }
+      h1.chapter {
+        font-size: 4.2rem;
+      }
       h2 {
         font-size: 3.2rem;
       }
@@ -133,13 +136,13 @@
       }
       a, p, pre, b {
         font-family: 'Alice';
-        font-size: 1.2rem;
+        font-size: 1.6rem;
       }
 
       .main-container {
-        margin: 50px 20px 150px 50px;
+        margin: 50px 50px 250px 50px;
       }
       .chapter-container {
-        margin: 50px 20px 150px 50px;
+        margin: 50px 50px 250px 50px;
       }
   }
