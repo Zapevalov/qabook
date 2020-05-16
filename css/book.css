@@ -122,6 +122,12 @@
     padding: 5px 0px 5px 10px;
     border-radius: 5px;
   }
+  ul.chapter-toc {
+    list-style-type: none;
+    font-size: 0.8em;
+    margin: 0;
+    text-decoration: underline;
+  }
 
   .mobile-toc {
     display: none;
