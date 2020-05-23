@@ -3,3 +3,7 @@
     text-decoration: underline; 
     cursor: pointer;
 }
+
+.help-me-links {
+    font-size: 0.8em;
+}
