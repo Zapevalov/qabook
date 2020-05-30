@@ -7,3 +7,14 @@
 .help-me-links {
     font-size: 0.8em;
 }
+
+.reference {
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.explain-picture {
+    font-style: italic;
+    font-size: 0.8em;
+    margin: 0;
+}
