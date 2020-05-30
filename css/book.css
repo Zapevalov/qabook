@@ -156,27 +156,32 @@
       }
       h1.chapter {
         font-size: 4.2rem;
-        margin-top: 2em;
+        margin-top: 1em;
         margin-bottom: 0.7em;
         font-weight: 700;
-        font-family: 'PT Serif';
+        font-family: 'Alice';
+        //font-family: 'PT Serif';
       }
       h2 {
         font-size: 3.2rem;
         font-weight: 500;
-        font-family: 'PT Serif';
+        font-family: 'Alice';
+        //font-family: 'PT Serif';
       }
       h3 {
         font-size: 2.2rem;
         font-weight: normal;
+        font-family: 'Alice';
       }
       h4 {
         font-size: 1.8rem;
         font-weight: normal;
+        font-family: 'Alice';
       }
       h5 {
         font-size: 1.6rem;
         font-weight: normal;
+        font-family: 'Alice';
       }
       a, p, pre, b, ul, ol, li {
         font-family: 'Alice';
