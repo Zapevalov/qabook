@@ -156,7 +156,8 @@
       }
       h1.chapter {
         font-size: 4.2rem;
-        margin-top: 100px;
+        margin-top: 2em;
+        margin-bottom: 0.7em;
         font-weight: 700;
         font-family: 'PT Serif';
       }
