@@ -50,7 +50,8 @@
   h2.toc {
     font-size: 2.4em;
     margin: 1.2em 0 0 0;
-    line-height: 2em;
+    line-height: 1em;
+    padding-top: 1em;
     border-top: 2px solid #17da00;
   }
   h3.toc {
@@ -155,10 +156,10 @@
         font-weight: normal;
       }
       h1.chapter {
-        font-size: 4.2rem;
+        font-size: 2.5em;
         margin-top: 1em;
         margin-bottom: 0.7em;
-        font-weight: 700;
+        font-weight: 500;
         font-family: 'Alice';
         //font-family: 'PT Serif';
       }
