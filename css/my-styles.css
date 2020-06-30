@@ -18,3 +18,16 @@
     font-size: 0.8em;
     margin: 0;
 }
+
+li.chapter-toc {
+	margin-bottom: 5px;
+}
+li.chapter-toc.current {
+	text-decoration: underline;
+}
+.chapter-toc a {
+	text-decoration: none;
+}
+.chapter-toc a:hover {
+	text-decoration: underline;
+}
